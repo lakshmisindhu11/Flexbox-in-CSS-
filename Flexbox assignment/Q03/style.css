@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: white;
+}
+.container >div{
+    width: 200px;
+    height: 200px;
+    color: aquamarine;
+    background-color: aquamarine;
+}

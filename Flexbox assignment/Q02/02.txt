@@ -1,0 +1,36 @@
+Properties of FlexBox Layout:
+    1. Justify-content:
+        This property is used to align the flex items. 
+        -flex-start: align the items at the beginning of the container(default)
+        -flex-end: aligns the flex items at the end of the container.
+        -space-around: displays the flex items with space before, between, and after the lines.
+        -space-between: displays the flex items with space between the lines.
+        -space-evenly: displays the flex items with equal space between the lines.
+
+    2. Align-items:
+        This property is used to align the flex items.
+        -flex-start: aligns the items at the beginning of the container(default)
+        -flex-end: aligns the flex items at the end of the container.
+        -center: aligns the flex items at the center of the container.
+        -stretch: stretches the flex items to fill the container (this is default)
+        -baseline: aligns the flex items by their baseline.
+
+    3. Gap:
+        This property is used to create space between the flex items.
+        -gap: creates space between the flex items.
+        -row-gap: creates space between the rows of the flex items.
+        -column-gap: creates space between the columns of the flex items.
+        
+    4. flex-direction:
+        This property defines in which direction the container wants to stack the flex items.
+        column-- from top to bottom
+        row-- from left to right
+        row-reverse-- from right to left
+        column-reverse-- from bottom to top
+
+    5. flex-wrap:
+        This property defines whether the flex items should wrap or not.
+        nowrap-- flex items will not wrap
+        wrap-- flex items will wrap
+        wrap-reverse-- flex items will wrap in reverse order
+        

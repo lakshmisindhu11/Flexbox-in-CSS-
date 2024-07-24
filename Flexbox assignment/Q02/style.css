@@ -1,0 +1,45 @@
+.Box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(194, 192, 192);
+    justify-content: end;
+}
+.Box > div{
+    border: 2px solid black; 
+    background-color: azure;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.Box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 192, 192);
+    gap:20px;
+    align-items: center ;
+}
+.Box1 > div{
+    border: 2px solid black; 
+    background-color: azure;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.Box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(194, 192, 192); 
+}
+.Box2 > div{
+    border: 2px solid black; 
+    background-color: azure;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
